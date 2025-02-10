@@ -1,0 +1,123 @@
+#navList{
+    width: 100%;
+    list-style: none;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: auto;
+    background-color: azure;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navContainer{
+    width: 100%;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    min-height: 80px;
+    display: flex;
+    padding: 0 20px;
+    position: relative;
+    overflow-x: hidden;
+}
+#navLogo{
+    font-size: 2.5rem;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    margin: 0 10px;
+}
+#navLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerBox{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    text-align: center;
+    width: 100%;
+    min-height: 20px;
+    color: white;
+    font-size: 1.25rem;
+}
+.contentBox{
+    width:50%;
+    border: 2px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    box-shadow: 1px 5px 5px black;
+    border-radius: 5px;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.rightBox img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.rightBox{
+    display: flex;
+    justify-content: flex-end;
+    width: 250px;
+    margin-right: 20px;
+}
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftBox h2{
+    font-size: 2rem;;
+}
+#kajuList{
+    font-size: 1.05rem;
+}
+#pizzaList{
+    font-size: 1.05rem;
+}
+#kajuRecipe{
+    font-size: 1.05rem;
+}
+#pizzaRecipe{
+    font-size: 1.05rem;
+}
+#navList img{
+    width: 100px;
+    height: auto;
+    border-radius: 30%;
+    padding: 10px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+img{
+    transition: all 0.5s linear 0s;
+}
+hr{
+    align-self: center;
+    width: 90%;
+}
